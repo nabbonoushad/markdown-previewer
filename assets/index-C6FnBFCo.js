@@ -119,6 +119,6 @@ function anotherExample(firstLine, lastLine) {
 3. Third item
 4. Fourth item
 
-> "Insert A Quote Here"
+> "Insert a quote here cause i cant think of one"
 ![Me](https://raw.githubusercontent.com/nabbonoushad/nabbonoushad/refs/heads/main/Untitled%20design%20(35).png)
 **also you can bold** and add [links](https://nabbonoushad.xyz)`,html:""},this.parse=this.parse.bind(this),this.firstParse=this.firstParse.bind(this)}componentDidMount(){this.firstParse()}firstParse(){lt.setOptions({breaks:!0});let c=lt.parse(this.state.text);this.setState({html:c})}parse(c){lt.setOptions({breaks:!0});let h=lt.parse(c.target.value);this.setState({text:c.target.value,html:h})}render(){return Ye.jsxs("div",{className:"container",children:[Ye.jsx("textarea",{className:"form-control form-control-lg textarea",onChange:this.parse,id:"editor",value:this.state.text,rows:"6"}),Ye.jsx("div",{className:"card",children:Ye.jsx("div",{className:"card-body",children:Ye.jsx("p",{dangerouslySetInnerHTML:{__html:this.state.html},id:"preview"})})})]})}}Hg.createRoot(document.getElementById("root")).render(Ye.jsx(Zh.StrictMode,{children:Ye.jsx(yy,{})}));
